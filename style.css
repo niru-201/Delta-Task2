@@ -1,0 +1,64 @@
+canvas{
+    background-color: black;
+    border: 2px solid blanchedalmond;
+    display: block;
+    margin-left: 13%;
+}
+#frame{
+    width:100vw;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+}
+#start{
+    width: 200px;
+    height: 75px;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding: 1px 1px;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(57, 6, 114);
+  }
+  #start:hover {
+    background-color: rgb(41, 155, 175);
+  }
+  #start:active {
+    background-color: yellowgreen;
+  }
+  #controls{
+    height: 7%;
+    width : 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+  }
+   #restart{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 2px solid #000;
+    padding: 1px 1px;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 6px;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(57, 6, 114);
+  }
+   #restart:hover {
+    background-color: rgb(41, 155, 175);
+  }
+   #restart:active{
+    background-color: yellowgreen;
+  }
