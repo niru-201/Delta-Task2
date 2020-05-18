@@ -54,11 +54,13 @@ function Circle() {
 	}
 
 	this.update = function() {
-		this.y -= 3;}
+		if(this.y >=cvs.height)
+		  requestAnimationFrame(gameover);
+		this.y+=0.27;}
 
 	this.up = function() {
 		if(this.y > 475){
-		  this.update();}
+			this.y -= 3;}
 		
 	}
 
@@ -217,6 +219,7 @@ ctx.clearRect(0,0,cvs.width,cvs.height);
 main = () =>{
 	ctx.save();
 	ctx.clearRect(0,0,cvs.width,cvs.height);
+	circl.update();
 	circl.disp();
 	best();
 	score_disp();
